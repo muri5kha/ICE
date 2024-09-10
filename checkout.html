@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Parlour - Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <div class="background-container"></div>
+
+    <div class="container">
+        <h2>Ice Cream Parlour</h2>
+        <h3>Checkout</h3>
+
+        <a href="index.html" id="logout-link">Logout</a> 
+        <div id="ice-cream-list"></div>
+
+        <div id="cart-summary">
+            <h2>Your Order:</h2>
+            <div id="order-details">
+                <!-- Cart items will be added here -->
+            </div>
+            <div id="total-price">
+                <h3>Total: <span id="total-value">$0.00</span></h3>
+                <button onclick="checkout()">Checkout</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="checkout.js"></script>
+</body>
+</html>
